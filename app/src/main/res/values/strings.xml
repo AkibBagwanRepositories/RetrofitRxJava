@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RetrofitRxJava</string>
+    <string name="heading">API CALL WITH RxJAVA</string>
+    <string name="git_id">GIT ID</string>
+</resources>

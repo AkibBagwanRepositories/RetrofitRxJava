@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/item_background"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/tv_item_response_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/git_id"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_login_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_response_id"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="@string/git_id"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_response_id"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        android:layout_toEndOf="@+id/tv_login_heading"
+        android:padding="5dp"
+        android:text="@string/git_id"
+        android:textColor="@color/colorAccent"
+        android:textSize="17sp" />
+</RelativeLayout>
